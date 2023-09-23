@@ -251,7 +251,7 @@ nav ul li a:hover::after {
 }
 
 .layer h3 {
-  font-weight: 500;
+  font-weight: 800;
   margin-bottom: 20px;
 }
 
@@ -290,6 +290,10 @@ nav ul li a:hover::after {
 
 .btn:hover {
   background: #ff004f;
+}
+
+.layer p {
+  font-size: 17px;
 }
 
 /* ----------------------contact---------------- */
@@ -470,6 +474,15 @@ nav .fa-solid {
   .work-list {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
+
+  .layer h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .layer p {
+    font-size: 13px;
+  }
+
 }
 
 #msg {
